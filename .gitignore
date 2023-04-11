@@ -1,3 +1,5 @@
 node_modules/
 package-lock.json
 ramen-ar.cer
+.DS_Store
+assets/.DS_Store
