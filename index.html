@@ -28,7 +28,9 @@
         <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
   
         <a-entity mindar-image-target="targetIndex: 0">
-          <a-gltf-model rotation="0 90 90 " position="0 0 0" scale="1 1 1" src="#model" animation-mixer>
+          <a-gltf-model id="ramenModel" rotation="0 90 90" position="0 0 0" scale="2 2 2" src="#model" animation-mixer>
+          </a-gltf-model>
+          <a-entity id="scaleControls" scale-controls="min: 0.2; max: 2.0; defaultValue: 1.0" pinch-scale></a-entity>
         </a-entity>
       </a-scene>
     </div>
